@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0052B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0080E0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(10, 10)">
+    <!-- Nouseva nuoli / voitto-symboli neliön sisällä -->
+    <rect x="5" y="5" width="80" height="80" rx="16" fill="url(#grad2)" />
+    <!-- Nouseva nuoli -->
+    <path d="M25,62 L45,30 L65,62" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Nuolen kärjen viiva ylös -->
+    <line x1="45" y1="30" x2="45" y2="18" stroke="white" stroke-width="6" stroke-linecap="round" />
+    <!-- Pienet pikselit -->
+    <rect x="22" y="68" width="6" height="6" rx="1" fill="rgba(255,255,255,0.4)" />
+    <rect x="34" y="68" width="6" height="6" rx="1" fill="rgba(255,255,255,0.5)" />
+    <rect x="46" y="68" width="6" height="6" rx="1" fill="rgba(255,255,255,0.6)" />
+    <rect x="58" y="68" width="6" height="6" rx="1" fill="rgba(255,255,255,0.4)" />
+  </g>
+  <!-- Teksti - valkoinen footerin tummaa taustaa varten -->
+  <text x="110" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF" letter-spacing="-1">Digivoitto</text>
+</svg>

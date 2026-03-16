@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <style>
+    .logo-label { font-family: Arial, Helvetica, sans-serif; font-size: 16px; fill: #333; text-anchor: middle; }
+    .logo-text { font-family: Arial, Helvetica, sans-serif; font-weight: 700; fill: #fff; text-anchor: middle; dominant-baseline: central; }
+  </style>
+
+  <!-- HTML5 -->
+  <rect x="62" y="60" width="110" height="110" rx="18" fill="#e44d26"/>
+  <text class="logo-text" x="117" y="115" font-size="26">HTML5</text>
+  <text class="logo-label" x="117" y="210">HTML5</text>
+
+  <!-- CSS3 -->
+  <rect x="222" y="60" width="110" height="110" rx="18" fill="#2965f1"/>
+  <text class="logo-text" x="277" y="115" font-size="28">CSS3</text>
+  <text class="logo-label" x="277" y="210">CSS3</text>
+
+  <!-- JavaScript -->
+  <rect x="382" y="60" width="110" height="110" rx="18" fill="#f0db4f"/>
+  <text x="437" y="115" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="36" fill="#323330" text-anchor="middle" dominant-baseline="central">JS</text>
+  <text class="logo-label" x="437" y="210">JS</text>
+
+  <!-- React -->
+  <rect x="542" y="60" width="110" height="110" rx="18" fill="#61dafb"/>
+  <text x="597" y="115" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" fill="#222" text-anchor="middle" dominant-baseline="central">React</text>
+  <text class="logo-label" x="597" y="210">React</text>
+
+  <!-- Python -->
+  <rect x="702" y="60" width="110" height="110" rx="18" fill="#306998"/>
+  <text class="logo-text" x="757" y="115" font-size="22">Python</text>
+  <text class="logo-label" x="757" y="210">Python</text>
+
+  <!-- Java -->
+  <rect x="862" y="60" width="110" height="110" rx="18" fill="#f89820"/>
+  <text class="logo-text" x="917" y="115" font-size="26">Java</text>
+  <text class="logo-label" x="917" y="210">Java</text>
+
+  <!-- AI -->
+  <rect x="1022" y="60" width="110" height="110" rx="18" fill="#1abc9c"/>
+  <text class="logo-text" x="1077" y="115" font-size="34">AI</text>
+  <text class="logo-label" x="1077" y="210">AI</text>
+</svg>
