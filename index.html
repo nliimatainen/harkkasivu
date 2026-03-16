@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light only">
+    <meta name="description" content="Modernit digiratkaisut suomalaisille pk-yrityksille. Verkkosivut, sovellukset, automaatio ja tekoäly.">
+    <title>Etusivu | Digivoitto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tyyli.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="logo-2-arrow.svg" alt="Digivoitto" class="logo-img"></a>
+            <button class="hamburger" onclick="toggleMenu()" aria-label="Avaa valikko" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav>
+                <ul class="main-nav" id="navLinks">
+                    <li><a href="index.html" aria-current="page">Etusivu</a></li>
+                    <li><a href="palvelut.html">Palvelut</a></li>
+                    <li><a href="esimerkkeja.html">Esimerkkejä</a></li>
+                    <li><a href="meista.html">Tietoa meistä</a></li>
+                    <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+                    <li><a href="yhteystiedot.html" class="nav-cta">Pyydä tarjous</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>Kasvata liikevaihtoa ja automatisoi rutiinit. Räätälöidyt digiratkaisut pk-yrityksille</h1>
+                    <p class="ingressi">Me rakennamme digitaaliset työkalut, jotka kasvattavat liikevaihtoasi ja vapauttavat sinut keskittymään ydin&shy;liiketoimintaasi</p>
+                    <div class="hero-buttons">
+                        <a href="palvelut.html" class="btn-primary">Tutustu palveluihin &rarr;</a>
+                        <a href="esimerkkeja.html" class="btn-secondary">Katso esimerkkejämme &rarr;</a>
+                    </div>
+                </div>
+                <figure class="hero-image">
+                    <img src="Etusivun_herokuva.jpg" alt="Henkilö koodaamassa tietokoneella modernissa toimistoympäristössä">
+                </figure>
+            </div>
+        </section>
+        <section class="section section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Palvelumme</h2>
+                </div>
+                <div class="service-cards">
+                    <a href="verkkosivut.html" class="service-card">
+                        <img src="Web_ikoni.jpg" alt="Verkkosivut ja verkkokaupat" class="icon">
+                        <h3>Verkkosivut ja verkkokaupat</h3>
+                        <p>Nopeita, mobiili&shy;ystävällisiä sivustoja, jotka löytyvät hakukoneista ja kääntävät kävijät asiakkaiksi</p>
+                    </a>
+                    <a href="sovellukset.html" class="service-card">
+                        <img src="Mobiili_ikoni.jpg" alt="Mobiili- ja web-sovellukset" class="icon">
+                        <h3>Mobiili- ja web-sovellukset</h3>
+                        <p>Räätälöidyt sovellukset kenttätyöhön, asiakaspalveluun tai sisäiseen hallintaan</p>
+                    </a>
+                    <a href="automaatio-ai.html" class="service-card">
+                        <img src="Ratas_ikoni.jpg" alt="Prosessien automaatio ja AI" class="icon">
+                        <h3>Prosessien automaatio ja AI</h3>
+                        <p>Automaatioita ja tekoäly&shy;ratkaisuja, jotka vähentävät manuaalista työtä ja säästävät kustannuksia</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section section-gray value-section">
+            <div class="container">
+                <div class="value-text">
+                    <h2>Miksi valita meidät?</h2>
+                    <p class="ingressi">Olemme suomalainen, ketterä kumppani, joka ymmärtää liiketoiminnan. Kehittämämme ratkaisut kasvattavat pk-yritysten liiketoimintaa ja pienentävät kustannuksia</p>
+                    <ul class="value-list">
+                        <li><strong>Tietoturva ensin:</strong> Kaikki data pysyy EU-alueella. Noudatamme GDPR-vaatimuksia ja käytämme salattuja yhteyksiä kaikessa tiedonsiirrossa</li>
+                        <li><strong>Kestävät ratkaisut:</strong> Rakennamme skaalautuvia järjestelmiä, jotka kasvavat yrityksesi mukana. Ei kertakäyttöistä koodia</li>
+                        <li><strong>Suomalainen kumppani:</strong> Paikallinen tekijä, sujuva kommunikaatio ja nopea reagointi ilman välikäsiä</li>
+                        <li><strong>Maksuton jälkituki:</strong> Kaikkiin toimeksiantoihin sisältyy vuoden maksuton tuki, ylläpito ja neuvonta</li>
+                    </ul>
+                    <a href="meista.html" class="btn-primary">Lue lisää meistä &rarr;</a>
+                </div>
+                <figure class="value-image">
+                    <img src="Arvolupaus_maisema.jpg" alt="Suomalainen järvimaisema auringonnousun aikaan" loading="lazy">
+                </figure>
+            </div>
+        </section>
+        <section class="section section-gray">
+            <div class="container">
+                <div class="inline-contact">
+                    <h2>Kerro tarpeistasi</h2>
+                    <p class="ingressi">Täytä lomake ja vastaamme 24 tunnin kuluessa. Voit myös soittaa tai lähettää sähköpostia</p>
+                    <form class="contact-form" id="inlineContactForm" onsubmit="handleInlineSubmit(event)">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="inline-name">Nimi <span class="required">*</span></label>
+                                <input type="text" id="inline-name" name="name" required placeholder="Nimesi">
+                            </div>
+                            <div class="form-group">
+                                <label for="inline-company">Yritys</label>
+                                <input type="text" id="inline-company" name="company" placeholder="Yrityksesi nimi">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="inline-email">Sähköposti <span class="required">*</span></label>
+                                <input type="email" id="inline-email" name="email" required placeholder="sahkoposti@yritys.fi">
+                            </div>
+                            <div class="form-group">
+                                <label for="inline-phone">Puhelin</label>
+                                <input type="tel" id="inline-phone" name="phone" placeholder="040 XXX XXXX">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inline-message">Viesti <span class="required">*</span></label>
+                            <textarea id="inline-message" name="message" required placeholder="Kerro lyhyesti, miten voimme auttaa..."></textarea>
+                        </div>
+                        <div class="consent-group">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">Hyväksyn, että antamiani tietoja käsitellään <a href="tietosuojaseloste.html" target="_blank">tietosuojaselosteen</a> mukaisesti</label>
+                        </div>
+                        <button type="submit" class="btn-primary">Lähetä viesti</button>
+                    </form>
+                    <div class="thank-you-message" id="inlineThankYou">
+                        Kiitos viestistäsi! Palaamme asiaan mahdollisimman pian
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-info">
+                <a href="index.html" class="logo"><img src="logo-2-arrow-white.svg" alt="Digivoitto" class="footer-logo-img"></a>
+                <p>Suomalainen ohjelmisto&shy;yritys, joka auttaa pk-yrityksiä digitali&shy;soimaan liike&shy;toimintaansa</p>
+            </div>
+            <nav class="footer-nav" aria-label="Alatunniste">
+                <h3>Sivusto</h3>
+                <ul>
+                    <li><a href="index.html">Etusivu</a></li>
+                    <li><a href="palvelut.html">Palvelut</a></li>
+                    <li><a href="esimerkkeja.html">Esimerkkejä</a></li>
+                    <li><a href="meista.html">Tietoa meistä</a></li>
+                    <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+                    <li><a href="tietosuojaseloste.html">Tietosuoja</a></li>
+                    <li><a href="saavutettavuusseloste.html">Saavutettavuus</a></li>
+                </ul>
+            </nav>
+            <div class="footer-contact">
+                <h3>Yhteystiedot</h3>
+                <address>
+                    <p>Puhelin: <a href="tel:+35840XXXXXXX">040 XXX XXXX</a></p>
+                    <p>Sähköposti: <a href="mailto:info@yritys.fi">info@yritys.fi</a></p>
+                </address>
+            </div>
+        </div>
+        <div class="container">
+            <p class="footer-bottom">&copy; 2026 Digivoitto Oy. Kaikki oikeudet pidätetään.</p>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('open');
+        }
+        function handleInlineSubmit(event) {
+            event.preventDefault();
+            document.getElementById('inlineContactForm').style.display = 'none';
+            document.getElementById('inlineThankYou').style.display = 'block';
+        }
+    </script>
+    <script src="chat-widget.js"></script>
+    <script src="cookie-banner.js"></script>
+</body>
+</html>
